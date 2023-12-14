@@ -1,0 +1,39 @@
+name: tkna
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8.10
+  # - cxx-compiler # Maybe the g++ problems were a red herring.
+  - pip:
+    - Bottleneck
+    - chardet
+    - cycler
+    - fonttools
+    - infomap
+    - kiwisolver
+    - matplotlib
+    - networkx
+    - numpy
+    - packaging
+    - pandas
+    - patsy
+    - Pillow
+    - pyparsing
+    - python-dateutil
+    - python-louvain
+    - pytz
+    - scipy
+    - seaborn
+    - six
+    - sortedcontainers
+    - statsmodels
+    - xarray
+
+
+# This conda environment can be installed with 
+# $ conda env create -f conda_environment.yaml
+# Tested successfully on:
+#  - macos 13.2, conda 23.1.0
+#  - debian 11 linux 5.10.158, conda 23.1.0
+#  - centos 7, linux 3.10.0, conda 22.9.0 ("saga")
+
